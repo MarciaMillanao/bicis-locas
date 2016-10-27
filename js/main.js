@@ -82,11 +82,11 @@ function validateForm(){
 		var bicicleta = document.getElementsByTagName('select'); 
 		for (var i = 0; i < bicicleta.length; i++){ //recorre la lista de opciones
 			if(bicicleta[i].value === "0"){
-				alert("Seleccione opcion correcta");
+				alert("Seleccione una bicicleta");
 				return false;
 			}
 		} 
-			return true;
+			return true;	
 	}
 	seleccionBici();
 
